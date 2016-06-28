@@ -4,7 +4,7 @@
     "moduleResolution": "node"
   },
   "files": [
-    "../typings/main.d.ts",
-    "../out/main.d.ts"
+    "../typings/fuse.js.d.ts",
+    "../out/fuse.js.d.ts"
   ]
 }
