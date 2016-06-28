@@ -1,5 +1,6 @@
 declare namespace fuse {
-	interface IFuseOptions extends ISearchOptions {
+	interface IFuseOptions {
+		id?: string;
 		caseSensitive?: boolean;
 		include?: string[];
 		shouldSort?: boolean;
@@ -8,9 +9,7 @@ declare namespace fuse {
 		getFn?: (obj: any, path: string) => any;
 		keys?: string[] | { name: string; weight: number }[];
 		verbose?: boolean;
-	}
-
-	interface ISearchOptions {
+		tokenize?: boolean;
 		location?: number;
 		distance?: number;
 		threshold?: number;
