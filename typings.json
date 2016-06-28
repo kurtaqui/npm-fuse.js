@@ -1,6 +1,7 @@
 {
   "name": "fuse.js"
   "main": "fuse.js.d.ts",
+  "version": "0.1.0",
   "devDependencies": {
     "fuse": "registry:dt/fuse#2.2.0+20160626231452"
   },
